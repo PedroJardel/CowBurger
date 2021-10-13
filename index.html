@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Lancheria, Hamburgueria, CowBurger, Restaurante, Street Food">
+    <meta name="description" content="Hamburgueria CowBurger">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Logo-Lancheria-CowBurguer.png" type="image/x-icon">
+    
+    <title>CowBurger</title>
+</head>
+
+<body>
+
+    <!--Menu de Navegação-->
+
+    <div class="m-menu" id="topo"></div>
+    <a href="#topo"><i href="#topo" class="fas fa-hamburger"></i></a>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark ">
+        <div class="container mw-100 ">
+            <div class="col-md-4">
+                <a class="navbar-brand" href="#topo">
+                    <img src="Logo-Lancheria-CowBurguer.png" alt="Logo da Lancheria CowBurger" width="300">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <form class="form-inline" action="/action_page.php">
+                    <input class="form-control mr-sm-2" style="width: 300px" type="text" placeholder="Procurar">
+                    <button class="btn btn-warning" type="submit">Procurar</button>
+                </form>
+            </div>
+            <div class="col-md-4 ">
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#burgers">Burgers</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#acompanhamentos">Acompanhamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#contato">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#carrinho">
+                                <img src="carrinho-icone.png" alt="icone do carrinho de compra" width="40">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Carousel-->
+
+    <div class="fundo">
+        <header>
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-md-7">
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+                            <h2 class="container d-flex p-2 justify-content-center text-white">Ambiente</h2>
+
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                <li data-target="#demo" data-slide-to="1"></li>
+                                <li data-target="#demo" data-slide-to="2"></li>
+                                <li data-target="#demo" data-slide-to="3"></li>
+                            </ul>
+
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="black-bison-02.png" alt="Los Angeles">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="What-Else-Mag-Gastronomia-Hamburguerias-Tematicas-Em-Sao-Paulo-16.png"
+                                        alt="Chicago">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="material-para-abrir-hamburgueria-SAIPOS-sistema-para-restaurante-2.png"
+                                        alt="New York">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Hamburgueria-da-Alfândega-Ipanema-1024x576.png" alt="Texas">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <h2 class="p-2 d-flex justify-content-center text-white">CowBurger</h2>
+                        <p class="h5 text-white">Hamburgueria fundada em 1989 em Pelotas, Rio Grande do Sul, trazendo
+                            um pouco da cultura norte americana, e é claro, o sabor dos deliciosos <a
+                                class="text-warning" href="#cardapio"><i>BURGERS</i></a> que
+                            tradicionais que você encontra aqui.
+                        </p>
+                            <h2 class="d-flex justify-content-center text-white">Equipe</h2>
+                            <img class="equipe " src="equipe.jpg" alt="Equipe">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--Card de Burgers-->
+
+        <div class="m-menu" id="burgers"></div>
+        <section>
+            <div class="container pt-4">
+                <span class=" btn btn-warning mb-4">
+                    <h2 class="text-dark"> <i>BURGERS</i></h2>
+                </span>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="blogpost_396653_img1_opera-gallery.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">CwBurger</h4>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                                    dignissimos?</p>
+                                <p class="text-secondary float-right">
+                                    <i class="fas fa-dollar-sign"></i> <b>R$ 22,00</b>
+                                </p>
+                                <a href="#adicionar" class="btn btn-warning">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="blogpost_396653_img1_opera-gallery.jpg" alt="Card image">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <h4 class="card-title">CwBurger</h4>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Beatae,
+                                        dignissimos?</p>
+                                    <p class="text-secondary float-right">
+                                        <i class="fas fa-dollar-sign"></i> <b>R$ 22,00</b>
+                                    </p>
+                                    <a href="#adicionar" class="btn btn-warning">Adicionar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="blogpost_396653_img1_opera-gallery.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">CwBurger</h4>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                                    dignissimos?</p>
+                                <p class="text-secondary float-right">
+                                    <i class="fas fa-dollar-sign"></i> <b>R$ 22,00</b>
+                                </p>
+                                <a href="#adicionar" class="btn btn-warning">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="blogpost_396653_img1_opera-gallery.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">CwBurger</h4>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                                    dignissimos?</p>
+                                <p class="text-secondary float-right">
+                                    <i class="fas fa-dollar-sign"></i> <b>R$ 22,00</b>
+                                </p>
+                                <a href="#adicionar" class="btn btn-warning">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="blogpost_396653_img1_opera-gallery.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">CwBurger</h4>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                                    dignissimos?</p>
+                                <p class="text-secondary float-right">
+                                    <i class="fas fa-dollar-sign"></i> <b>R$ 22,00</b>
+                                </p>
+                                <a href="#adicionar" class="btn btn-warning">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="blogpost_396653_img1_opera-gallery.jpg" alt="Card image">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <h4 class="card-title">CwBurger</h4>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Beatae,
+                                        dignissimos?</p>
+                                    <p class="text-secondary float-right">
+                                        <i class="fas fa-dollar-sign"></i> <b>R$ 22,00</b>
+                                    </p>
+                                    <a href="#adicionar" class="btn btn-warning">Adicionar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="blogpost_396653_img1_opera-gallery.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">CwBurger</h4>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                                    dignissimos?</p>
+                                <p class="text-secondary float-right">
+                                    <i class="fas fa-dollar-sign"></i> <b>R$ 22,00</b>
+                                </p>
+                                <a href="#adicionar" class="btn btn-warning">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="blogpost_396653_img1_opera-gallery.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">CwBurger</h4>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                                    dignissimos?</p>
+                                <p class="text-secondary float-right">
+                                    <i class="fas fa-dollar-sign"></i> <b>R$ 22,00</b>
+                                </p>
+                                <a href="#adicionar" class="btn btn-warning">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--Cards de Acompanhamentos-->
+
+        <div class="m-menu" id="acompanhamentos"></div>
+        <section>
+            <div class="container">
+                <span class=" btn btn-warning mb-4">
+                    <h2 class="text-dark"> <i>ACOMPANHAMENTOS</i></h2>
+                </span>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="blogpost_396653_img1_opera-gallery.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">CwFritas</h4>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Beatae,
+                                    dignissimos?</p>
+                                <p class="text-secondary float-right">
+                                    <i class="fas fa-dollar-sign"></i> <b>R$ 12,00</b>
+                                </p>
+                                <a href="#adicionar" class="btn btn-warning">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="blogpost_396653_img1_opera-gallery.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">CwPolentas</h4>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Beatae,
+                                    dignissimos?</p>
+                                <p class="text-secondary float-right">
+                                    <i class="fas fa-dollar-sign"></i> <b>R$ 16,00</b>
+                                </p>
+                                <a href="#adicionar" class="btn btn-warning">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="blogpost_396653_img1_opera-gallery.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">CwOnionRings</h4>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                    elit. Beatae,
+                                    dignissimos?</p>
+                                <p class="text-secondary float-right">
+                                    <i class="fas fa-dollar-sign"></i> <b>R$ 16,00</b>
+                                </p>
+                                <a href="#adicionar" class="btn btn-warning">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Carrinho de Compras-->
+        <div class="m-menu" id="carrinho"></div>
+        <section>
+            <div class="container">
+                <div class="py-5 text-center text-white">
+                    <i class="fas fa-shopping-basket mb-5" width="72" height="57"></i>
+                    <h2>Pagamento</h2>
+                    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores repudiandae 
+                        amet dolorum. Accusamus animi distinctio non aut, commodi quae ipsa!</p>
+                </div>
+
+                <div class="row g-5 text-white">
+                    <div class="col-md-5 col-lg-4 order-md-last">
+                        <h4 class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="text-warning">Seu Carrinho</span>
+                            <span class="badge bg-warning rounded-pill text-dark">3</span>
+                        </h4>
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0 text-muted">1º item</h6>
+                                    <small class="text-muted">CwBurger</small>
+                                </div>
+                                <span class="text-muted">R$22,00</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0 text-muted">2º item</h6>
+                                    <small class="text-muted">CwFritas</small>
+                                </div>
+                                <span class="text-muted">R$12,00</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0 text-muted">3º item</h6>
+                                    <small class="text-muted">CwOnionRings</small>
+                                </div>
+                                <span class="text-muted">R$16,00</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between bg-light">
+                                <div class="text-success">
+                                    <h6 class="my-0">Cupom</h6>
+                                    <small>CWPROMO</small>
+                                </div>
+                                <span class="text-success">−R$5</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between text-muted">
+                                <span>Total</span>
+                                <strong>R$45,00</strong>
+                            </li>
+                        </ul>
+                        <form class="card p-2">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="CUPOM...">
+                                <button type="submit" class="btn btn-warning">Aplicar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-7 col-lg-8">
+                        <h4 class="mb-3 text-warning">Preencha seus Dados</h4>
+                        <form class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-sm-6 ">
+                                    <label for="firstName " class="form-label ">Primeiro Nome</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="" value=""
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Primeiro nome deve ser preenchido corretamente.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="lastName " class="form-label ">Último Nome</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="" value=""
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Último nome deve ser preenchido corretamente.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="username " class="form-label">Usuário</label>
+                                    <div class="input-group has-validation">
+                                        <span class="input-group-text mr-2">@</span>
+                                        <input type="text" class="form-control" id="username" placeholder="Usuário"
+                                            required>
+                                        <div class="invalid-feedback">
+                                           Usuário deve ser preenchido.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="email " class="form-label">Email <span
+                                            class="text-muted">(Optional)</span></label>
+                                    <input type="email" class="form-control" id="email" placeholder="seu@email.com">
+                                    <div class="invalid-feedback">
+                                        Por favor use um e-mail válido.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="address" class="form-label">Endereço</label>
+                                    <input type="text" class="form-control" id="address" placeholder="R. Gen. Osório"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Please enter your shipping address.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="complemento" class="form-label">Complemento<span
+                                            class="text-muted">(Optional)</span></label>
+                                    <input type="text" class="form-control" id="complemento"
+                                        placeholder="Apt 5 - Bloco 7">
+                                </div>
+
+                                <div class="col-md-9">
+                                    <label for="cidade" class="form-label mt-2">CIDADE</label>
+                                    <div class="row"></div>
+                                    <select class="form-select mt-2" id="cidade" required>
+                                        <option>Camaquã</option>
+                                        <option>Porto Alegre</option>
+                                        <option>Canguçu</option>
+                                        <option>Morro Redondo</option>
+                                        <option>Capão do Leão</option>
+                                        <option>Canoas</option>
+                                        <option>Rio Grande</option>
+                                        <option>Santa Vitória</option>
+                                        <option>Santa Maria</option>
+                                        <option>Chuí</option>
+                                        <option>Ijuí</option>
+                                        <option>Santo Ãngelo</option>
+                                        <option value="">Outros...</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Por Favor selecione a sua cidade.
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <label for="cep" class="form-label">CEP</label>
+                                    <input type="text" class="form-control" id="cep" placeholder="99999-999" required>
+                                    <div class="invalid-feedback">
+                                        CEP deve ser preenchido.
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="my-4">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="same-address">
+                                <label class="form-check-label" for="same-address">O endereço de entrega é o mesmo que o meu
+                                    endereço de cobrança.</label>
+                            </div>
+
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="save-info">
+                                <label class="form-check-label" for="save-info">Guarde esta informação para a próxima
+                                    vez.</label>
+                            </div>
+
+                            <hr class="my-4">
+
+                            <h4 class="mb-3 text-warning">Forma de Pagamento</h4>
+
+                            <div class="my-3">
+                                <div class="form-check">
+                                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input"
+                                        checked required>
+                                    <label class="form-check-label" for="credit">Cartão de crédtio</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="debit" name="paymentMethod" type="radio" class="form-check-input"
+                                        required>
+                                    <label class="form-check-label" for="debit">Cartão de débito</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="paypal" name="paymentMethod" type="radio" class="form-check-input"
+                                        required>
+                                    <label class="form-check-label" for="paypal">Pix</label>
+                                </div>
+                            </div>
+
+                            <div class="row gy-3">
+                                <div class="col-md-6">
+                                    <label for="cc-name" class="form-label">Nome do cartão</label>
+                                    <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                                    <small class="text-muted">Preencha conforme seu cartão.</small>
+                                    <div class="invalid-feedback">
+                                        Nome do cartão deve ser preenchido.
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="cc-number" class="form-label">Número do Cartão de crédito <i class="far fa-credit-card ml-2"></i></label>
+                                    <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                                    <div class="invalid-feedback">
+                                        Número do cartão de crédito deve ser preenchido
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <label for="cc-expiration" class="form-label">Vencimento</label>
+                                    <input type="date" class="form-control" id="cc-expiration" placeholder="" required>
+                                    <div class="invalid-feedback">
+                                        Vencimento deve ser preenchido
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <label for="cc-cvv" class="form-label">Cód. Segurança</label>
+                                    <input type="text" class="form-control" id="cc-cvv" placeholder="999" required>
+                                    <div class="invalid-feedback">
+                                        Código de segurança deve ser preenchido!
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="my-4">
+
+                            <button class="w-100 btn btn-warning btn-lg mb-4" type="submit">Continue com o Pagamento</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer && Localização | Contato-->
+
+        <div class="m-menu" id="contato"></div>
+        <footer>
+            <div class="container pt-2">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="text-warning">Localização</h2>
+                        <iframe
+                            src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3392.1222355597133!2d-52.33875281629456!3d-31.76715186683045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9511b52a39d4078f%3A0x1ab59e82a4fa2cc6!2sVersa%20Caf%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1633892285600!5m2!1spt-BR!2sbr"
+                            width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="texto-footer">
+                            <h2 class="text-warning">Contato</h2>
+                            <h5>R. Gen. Neto, 782 - Centro, Pelotas - RS, 96015-280</h5>
+                            <h5>Tel: (53) 99999-9999</h5>
+                            <h5>E-mail: atendimento@cowburger.com</h5>
+                            <div class="novidades  py-5">
+                                <h2 class="text-warning">Novidades</h2>
+                                <form class="form-inline" action="/action_page.php">
+                                    <input class="form-control mr-sm-2" type="text" placeholder="Digite seu Nome">
+                                    <input class="form-control mr-sm-2" type="email" placeholder="Digite seu email">
+                                    <button class="btn btn-warning" type="submit">Enviar</button>
+                                </form>
+                            </div>
+                            <div class="redes">
+                                <nav class="navbar2 navbar-expand-md ">
+                                    <ul class="navbar-nav ml-auto justify-content-center" style="list-style: none">
+                                        <li class="nav-item">
+                                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h6 class="d-flex p-2 justify-content-center"><i>₢-Copyright | Site desenvolvido por <a
+                        href="https://www.instagram.com/pedrozagolima/" class="text-warning">BestWay Design </a></i>
+            </h6>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </div>
+</body>
+
+</html>
